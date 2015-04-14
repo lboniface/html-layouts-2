@@ -1,0 +1,50 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+p {
+	word-wrap: break-word;
+	font-family: 'Georgia', "Comic-sans", "Arial";
+}
+.container{
+	display: flex;
+}
+.topDiv{
+	height: 175px;
+	width: 33%;
+	margin: 0 1% 2% 1%;
+
+}
+.red{
+	background: #DE0000;
+}
+.blue{
+	background: #4989E7
+}
+.grey{
+	background-color: #4A4A4A;
+}
+.midDiv{
+	height: 350px;
+	margin-top: 2%;
+}
+.leftMDiv{
+	width: 33.5%;
+}
+.rightMDiv{
+	width: 66.5%;
+}
+.btmDiv{
+	height: 175px;
+	margin-top: 2%;
+}
+.leftBDiv{
+	width: 70%;
+}
+.asidesBDiv{
+	width: 5%;
+}
+.rightBDiv{
+	width: 20%;
+}
